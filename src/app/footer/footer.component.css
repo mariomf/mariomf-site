@@ -1,0 +1,8 @@
+.footer-oreilly{
+    border-top: 1px solid var(--gray-200);
+    padding-top: 0.65rem !important;
+    padding-bottom: 0.65rem !important;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
