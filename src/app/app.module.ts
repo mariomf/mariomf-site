@@ -12,11 +12,11 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HomeComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

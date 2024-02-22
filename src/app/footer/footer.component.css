@@ -6,3 +6,22 @@
     bottom: 0;
     width: 100vw;
 }
+.footer-page{
+    /*border-top: 1px solid var(--gray-200);
+    padding-top: 0.65rem !important;
+    padding-bottom: 0.65rem !important;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 33%;*/
+    
+    padding-top: 0.65rem !important;
+    padding-bottom: 0.65rem !important;
+    bottom: 0;
+    width: 100vw;
+    height: 33%;
+}
+.social-icon {
+    margin-right: 30px;
+  }
+  
