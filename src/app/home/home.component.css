@@ -1,20 +1,3 @@
-:host ::ng-deep {
-    .product-item {
-        .product-item-content {
-            border: 1px solid var(--surface-d);
-            border-radius: 3px;
-            margin: .3rem;
-            text-align: center;
-            padding: 2rem 0;
-        }
-    
-        .product-image {
-            width: 20%;
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
-        }
-    }
-}
-
 .specialFontFooter {
     font-family: 'MyBrandFont2', sans-serif; /* MyFont2 is primary, sans-serif is fallback */
     font-size: medium;
@@ -23,11 +6,8 @@
 .specialFontFooter2 {
     font-family: 'MyBrandFont2', sans-serif; /* MyFont2 is primary, sans-serif is fallback */
     font-size: large;
+}  
+
+.p-image{
+    border-radius: 50%;
 }
-.p-card img {
-    width: 100px; /* Adjust width as desired */
-    height: 100px; /* Adjust height to match width for a circle */
-    border-radius: 50%; /* Create the circular shape */
-    object-fit: cover; /* Maintain aspect ratio and prevent distortion */
-  }
-  
