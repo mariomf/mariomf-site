@@ -14,3 +14,20 @@
         }
     }
 }
+
+.specialFontFooter {
+    font-family: 'MyBrandFont2', sans-serif; /* MyFont2 is primary, sans-serif is fallback */
+    font-size: medium;
+}
+
+.specialFontFooter2 {
+    font-family: 'MyBrandFont2', sans-serif; /* MyFont2 is primary, sans-serif is fallback */
+    font-size: large;
+}
+.p-card img {
+    width: 100px; /* Adjust width as desired */
+    height: 100px; /* Adjust height to match width for a circle */
+    border-radius: 50%; /* Create the circular shape */
+    object-fit: cover; /* Maintain aspect ratio and prevent distortion */
+  }
+  

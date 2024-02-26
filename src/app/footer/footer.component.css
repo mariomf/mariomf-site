@@ -24,4 +24,8 @@
 .social-icon {
     margin-right: 30px;
   }
+
+.specialFontFooter {
+    font-family: 'MyBrandFont2', sans-serif; /* MyFont2 is primary, sans-serif is fallback */
+}
   

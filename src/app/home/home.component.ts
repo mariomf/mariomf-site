@@ -3,6 +3,8 @@ import { Router } from '@angular/router';
 import { CarouselModule } from 'primeng/carousel';
 import { ImageModule } from 'primeng/image';
 import { ButtonModule } from 'primeng/button';
+import { FieldsetModule } from 'primeng/fieldset';
+import { CardModule } from 'primeng/card';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +13,9 @@ import { ButtonModule } from 'primeng/button';
   imports: [
     CarouselModule,
     ButtonModule,
-    ImageModule
+    ImageModule,
+    FieldsetModule,
+    CardModule
   ], 
   standalone: true
 })

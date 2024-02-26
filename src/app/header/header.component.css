@@ -9,3 +9,8 @@ ul li a {
     display: block;
     margin-left: -0.5em;
 }
+#title {
+    font-family: 'MyBrandFont2', sans-serif; /* Fallback for browsers without the font */
+    font-size: large;
+  }
+  

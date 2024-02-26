@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'MyBrandFont'; /* Replace with your font name */
+    src: url('assets/fonts/Blanka-Regular.otf') format('opentype'); /* Adjust path as needed */
+  }
+
+@font-face {
+    font-family: 'MyBrandFont2'; /* Replace with your font name */
+    src: url('assets/fonts/Bungee-Regular.ttf') format('truetype'); /* Adjust path as needed */
+}
